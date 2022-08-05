@@ -1,0 +1,37 @@
+$colorBG: #F2F5F8;
+$colorNavPurple: #8172D5;
+$colorSearch: #69A3A2;
+$colorYellow: #FFB140;
+$colorFill: #758BFD;
+
+.flag{
+    width: 15px;
+}
+
+.dropdown-menu{
+    min-width: 8rem;
+}
+
+#account{
+    font-size: 12px;
+    color: $colorFill;
+    margin:0;
+    margin-left: 1rem;
+}
+
+.nav-link{
+    margin-right: 3rem;
+    color: $colorFill;
+}
+
+.btn-primary{
+    width: 2rem;
+    height: fit-content;
+}
+.navbar{
+    img{margin-right: 10rem;}
+}
+
+#usa-btn{
+    background-color: $colorFill;
+}
