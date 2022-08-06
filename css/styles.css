@@ -37,6 +37,11 @@ body {
   background-color: #758BFD;
 }
 
+#first-section {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .carousel {
   width: 100%;
   background-color: white;
@@ -79,6 +84,7 @@ body {
   font-size: 0.7rem;
   margin-left: 5rem;
   color: #69A3A2;
+  margin-top: 1rem;
 }
 
 h2 {
@@ -102,6 +108,9 @@ button {
 .slider-cont {
   width: 60%;
   margin: 0 auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .quick-link {
@@ -111,7 +120,7 @@ button {
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  padding: 4rem;
+  padding: 3.1rem;
 }
 
 .quick-link-card {
@@ -119,10 +128,62 @@ button {
 }
 .quick-link-card p {
   font-size: 12px;
-  margin-top: 0.6rem;
+  margin-top: 1.2rem;
   color: #758BFD;
 }
 
 .row {
   margin: 1rem;
+}
+
+.api-section {
+  width: 100%;
+}
+
+.news-header {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 2rem;
+  align-items: center;
+}
+.news-header p {
+  font-size: 1.5rem;
+}
+.news-header a {
+  font-size: 0.8rem;
+}
+
+.api {
+  width: 90%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.api-card {
+  width: 260px;
+  height: 368px;
+  background-color: white;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+  position: relative;
+}
+.api-card img {
+  width: 224px;
+  height: 125px;
+  border-radius: 8px;
+}
+.api-card p {
+  font-size: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+}
+.api-card .green-txt {
+  font-size: 0.5rem;
+  color: #69A3A2;
+  position: absolute;
+  bottom: 0.7rem;
 }/*# sourceMappingURL=styles.css.map */
