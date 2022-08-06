@@ -46,6 +46,10 @@ body{
     margin: 0 auto;
 }
 
+#carouselExampleIndicators{
+    height: 472px;
+}
+
 .carousel{
     width: 100%;
     background-color: white;
@@ -78,17 +82,18 @@ body{
 }
 
 .carousel-text{
-    margin-left: 5rem;
+    margin-left: 4rem;
     margin-top: 3rem;
     font-size: 24px;
-    width: 90%;
+    width: 80%;
 }
 
 .green-small{
     font-size: 0.7rem;
-    margin-left: 5rem;
+    margin-left: 4rem;
     color: $colorSearch;
     margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 h2{
@@ -152,6 +157,7 @@ button {
     align-items: center;
     p{
         font-size: 1.5rem;
+        color: black;
     }
     a{
         font-size: 0.8rem;
@@ -188,4 +194,62 @@ button {
         position: absolute;
         bottom: 0.7rem;
     }
+}
+
+///////////////////////////////
+/// togle
+.how-do-it{
+    width: 100%;
+}
+
+.main{
+    width: 93%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin:2rem auto;
+}
+
+p{
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    color: #8172D5;
+}
+
+.togl-card{
+    width: 48%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 5px;
+}
+
+.dropdown-toggle {
+    white-space: normal;
+    padding-left: 0.5rem;
+    }
+
+.togl-card1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+
+.dropdown-menu{
+    width: 70%;
+    object-fit: contain;
+}
+
+#txtblia{
+    width: fit-content;
 }
