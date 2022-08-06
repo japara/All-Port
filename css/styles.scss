@@ -4,6 +4,9 @@ $colorSearch: #69A3A2;
 $colorYellow: #FFB140;
 $colorFill: #758BFD;
 
+body{
+    background-color: $colorBG;
+}
 .flag{
     width: 15px;
 }
@@ -34,4 +37,90 @@ $colorFill: #758BFD;
 
 #usa-btn{
     background-color: $colorFill;
+}
+
+//////////////////////////////////
+///slider
+
+.carousel{
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+}
+
+.carousel-control-next{
+    position: static;
+}
+
+.carousel-control-prev{
+    position: static;
+}
+
+.arrows{
+    width: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-indicators{
+    position: static;
+    margin: 0;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 15px;
+    height:15px;
+    background-color: $colorFill;
+}
+
+.carousel-text{
+    margin-left: 5rem;
+    margin-top: 3rem;
+    font-size: 24px;
+    width: 90%;
+}
+
+h2{
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+
+button {
+    border-radius: 50%;
+    }
+
+#first-section{
+    display: flex;
+}
+
+.quick-link-box{
+    width:35%;
+    margin: 0 auto;
+}
+
+.slider-cont{
+    width: 60%;
+    margin: 0 auto;
+}
+.quick-link{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 4rem;
+}
+
+.quick-link-card{
+    margin:1rem;
+    p{
+        font-size: 12px;
+        margin-top: 0.6rem;
+        color: $colorFill;
+    }
+}
+
+.row{
+    margin: 1rem;
 }
