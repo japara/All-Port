@@ -355,4 +355,86 @@ p {
   height: 35px;
   font-size: 10px;
   margin-right: 2rem;
+}
+
+.profile-cont {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+#profile-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.profile-card {
+  padding-top: 3rem;
+  width: 352px;
+  height: 409px;
+  background-color: white;
+  text-align: center;
+}
+.profile-card p {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  width: 292px;
+  text-align: left;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+.profile-card .greenish {
+  color: #69A3A2;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: left;
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+}
+
+.foot-top {
+  width: 100%;
+  background-color: #F7FDFD;
+  height: 93px;
+}
+.foot-top p {
+  color: #27187F;
+  font-size: 24px;
+}
+.foot-top span {
+  color: #758BFD;
+}
+
+.foot-bot {
+  width: 100%;
+  height: 93px;
+  background-color: #758BFD;
+}
+.foot-bot p {
+  color: white;
+}
+.foot-bot ul {
+  list-style-type: none;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0;
+}
+.foot-bot li {
+  margin-right: 3rem;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+#feedback-btn {
+  background-color: #758BFD;
+  color: white;
+  width: 120px;
+  height: 35px;
+  font-size: 10px;
+  margin-left: 2rem;
+  border-radius: 10px;
+  border: none;
 }/*# sourceMappingURL=styles.css.map */
