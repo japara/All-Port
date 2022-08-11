@@ -65,3 +65,6 @@ img.src=elem.img;
 text.innerHTML=elem.txt1;
 smallText.innerHTML=elem.txt2
 }
+
+////////////////////////////////
+///////resize

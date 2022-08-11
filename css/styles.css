@@ -333,6 +333,9 @@ p {
 .propose #resize2 {
   width: 40%;
 }
+.propose #resize2:hover ~ #resize1 {
+  background-color: red;
+}
 .propose #resize2 p {
   color: black;
   font-size: 14px;
@@ -429,6 +432,17 @@ p {
 }
 
 #feedback-btn {
+  background-color: #758BFD;
+  color: white;
+  width: 120px;
+  height: 35px;
+  font-size: 10px;
+  margin-left: 2rem;
+  border-radius: 10px;
+  border: none;
+}
+
+.modal-btn {
   background-color: #758BFD;
   color: white;
   width: 120px;

@@ -252,12 +252,38 @@
       <p id="greenish">MAY 20, 2022</p>
       <p id="reg-text">Learn from Industry Superstars and Renew Your Passion</p>
     </div>
-    <button class="btn btn-primary register-btn">Register for free</button>  
+    <!-- Button trigger modal -->
+
+    <button type="button" class="btn btn-primary register-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Register for free</button> 
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Register</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <label for="Name">Your Name:</label>
+        <input type="text">
+      </div>
+      <div class="modal-body">
+        <label for="email">Your E-mail:</label>
+        <input type="email">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary modal-btn" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary modal-btn">Accept</button>
+      </div>
+    </div>
+  </div>
+</div>
+     
   </div>
 </section>
 <section class="propose">
   <div class="contianer-fluid resize-cont d-flex">
-    <div id="resize1">
+    <div id="resize1" class="resize-1">
       <h3>Interested in proposing content?</h3>
       <img src="images/resize1.png" alt="guy1">
       <div class="d-flex justify-content-between">
