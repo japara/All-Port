@@ -323,3 +323,49 @@ p{
     height: 35px;
     font-size: 10px;
 }
+
+//////////////////////////
+/// proporse
+
+.propose{
+
+    width: 100%;
+    .resize-cont{
+        width: 80%;
+        margin: 2rem auto;
+    }
+    #resize1{
+        width: 60%;
+    }
+
+    #resize2{
+        width: 40%;
+
+        p{
+            color: black;
+            font-size: 14px;
+        };
+    }
+
+    #propose-text{
+        width: 495px;
+        height: 38px;
+        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: clip;
+
+        p{
+            color: black;
+        font-size: 14px;
+        }
+        }
+    .propose-btn{
+        background-color: #758BFD;
+        color: white;
+        width: 120px;
+        height: 35px;
+        font-size: 10px;
+        margin-right: 2rem;
+        }
+}
+
