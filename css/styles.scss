@@ -335,17 +335,33 @@ p{
         margin: 2rem auto;
     }
     #resize1{
-        width: 60%;
-    }
-
-    #resize2{
-        width: 40%;
-        // &:hover{
-        //         width: 60%;
-        //     };
-        &:hover ~ #resize1{
-            background-color: red;
+        .image1{
+            height: 160px;
+            background-image: url('../images/resize1.png');
+            background-repeat: no-repeat;
+            background-size: cover;
         }
+        width: 45%;
+        margin-right: 2rem;
+        &:hover{
+            width: 60%;
+        }
+    }
+    .image{
+        width: 100%;
+    }
+    #resize2{
+        .image2{
+            height: 160px;
+            background-image: url('../images/resize2.png');
+            background-repeat: no-repeat;
+            background-size: cover ;
+        }
+        width: 45%;
+        &:hover{
+            width: 60%;
+        }
+
         p{
             color: black;
             font-size: 14px;
@@ -353,7 +369,7 @@ p{
     }
 
     #propose-text{
-        width: 495px;
+        width: 50%;
         height: 38px;
         white-space: nowrap; 
         overflow: hidden;
@@ -361,7 +377,7 @@ p{
 
         p{
             color: black;
-        font-size: 14px;
+            font-size: 14px;
         }
         }
     .propose-btn{

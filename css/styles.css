@@ -328,20 +328,39 @@ p {
   margin: 2rem auto;
 }
 .propose #resize1 {
+  width: 45%;
+  margin-right: 2rem;
+}
+.propose #resize1 .image1 {
+  height: 160px;
+  background-image: url("../images/resize1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.propose #resize1:hover {
   width: 60%;
 }
-.propose #resize2 {
-  width: 40%;
+.propose .image {
+  width: 100%;
 }
-.propose #resize2:hover ~ #resize1 {
-  background-color: red;
+.propose #resize2 {
+  width: 45%;
+}
+.propose #resize2 .image2 {
+  height: 160px;
+  background-image: url("../images/resize2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.propose #resize2:hover {
+  width: 60%;
 }
 .propose #resize2 p {
   color: black;
   font-size: 14px;
 }
 .propose #propose-text {
-  width: 495px;
+  width: 50%;
   height: 38px;
   white-space: nowrap;
   overflow: hidden;
