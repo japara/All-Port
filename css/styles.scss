@@ -253,3 +253,73 @@ p{
 #txtblia{
     width: fit-content;
 }
+
+/////////////////////////////
+/// register
+
+.register-cont{
+    padding: 0;
+    height: 361px;
+}
+.visa{
+    width: 50%;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+    background-image: url('../images/visa.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#register-card{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    background-color: white;
+    position: relative;
+    font-weight: bold;
+
+    a{
+        position: absolute;
+        right: 4rem;
+        top: 2rem;
+        font-size: 6px;
+    }
+    #orange{
+        position: absolute;
+        color: #FFB140;
+        font-size: 12px;
+        left: 6rem;
+        top: 5rem;
+    }
+    .reg-text-cont{
+        position: absolute;
+        left: 4rem;
+        top: 8rem;
+        width: 372px;
+    }
+
+    #greenish{
+        color: #69A3A2;
+        font-size: 14px;
+    }
+
+    #reg-text{
+        font-size: 24px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .register-btn{
+        position: absolute;
+        left: 6rem;
+        top: 17rem;
+        background-color: #758BFD;
+    }
+}
+
+.register-btn{
+    width: 110px;
+    height: 35px;
+    font-size: 10px;
+}
