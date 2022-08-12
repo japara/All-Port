@@ -405,6 +405,7 @@ p{
 }
 
 .profile-card{
+
     padding-top: 3rem;
     width: 352px;
     height: 409px;
@@ -513,6 +514,16 @@ $breakpoint-tablet: 835px;
 @media(max-width:580px){
     .api-cont{
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:1110px){
+    .resize-cont{
+        display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;

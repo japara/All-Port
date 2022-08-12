@@ -499,4 +499,13 @@ p {
     justify-content: center;
     align-items: center;
   }
+}
+@media (max-width: 1110px) {
+  .resize-cont {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }/*# sourceMappingURL=styles.css.map */
