@@ -107,6 +107,7 @@ button {
 
 #first-section{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .quick-link-box{
@@ -483,4 +484,37 @@ p{
     margin-left: 2rem;
     border-radius: 10px;
     border: none;
+}
+
+$breakpoint-tablet: 835px;
+
+@media(max-width: $breakpoint-tablet) {
+  #first-section{
+    .slider-cont{
+        width: 441px;
+    }
+    .quick-link-box{
+        width: 263px;
+    }
+  }
+  .profile-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media(max-width:580px){
+    .api-cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

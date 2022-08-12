@@ -67,4 +67,6 @@ smallText.innerHTML=elem.txt2
 }
 
 ////////////////////////////////
-///////resize
+///////carousel
+
+// let slide = document.querySelector()
