@@ -11,9 +11,10 @@ body{
     width: 15px;
 }
 
-.dropdown-menu{
-    min-width: 8rem;
-}
+// .dropdown-menu{
+//     min-width: 8rem;
+// }
+
 
 #account{
     font-size: 12px;
@@ -154,7 +155,7 @@ button {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    margin-top: 2rem;
+    margin-top: 3rem;
     align-items: center;
     p{
         font-size: 1.5rem;
@@ -246,10 +247,6 @@ p{
     display: none;
 }
 
-.dropdown-menu{
-    width: 70%;
-    object-fit: contain;
-}
 
 #txtblia{
     width: fit-content;
@@ -528,4 +525,51 @@ $breakpoint-tablet: 835px;
         justify-content: center;
         align-items: center;
     }
+}
+
+
+
+//////////////////////////////////
+/// test
+.accordion{
+    width: 48%;
+    margin: 5px auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: none;
+
+}
+.accordion-header{
+    margin: 0;
+}
+.accordion-item {
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    // height: 60px;
+}
+
+.accordion-button{
+    color: $colorNavPurple;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.accordion-button::after{
+    background-image: url('../images/arrowright.png');
+    background-size: contain;
+    height: 10px;
+    width: 10px;
+}
+
+.acordion-cont{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    display: flex;
 }
